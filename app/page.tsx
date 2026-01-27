@@ -1,7 +1,8 @@
 import ExploreButton from "@/components/ExploreButton";
 import EventCard from "@/components/EvenCard";
-import { time } from "console";
-import events from "@/constant";
+import events from "@/lib/constant";
+
+// Example: button click
 
 const HomePage = () => {
   return (
