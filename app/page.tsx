@@ -1,14 +1,9 @@
 import ExploreButton from "@/components/ExploreButton";
 import EventCard from "@/components/EvenCard";
-import { IEvent } from "@/database";
-// // import events from "@/lib/constant";
+import { getEvents } from "@/lib/getEvents";
 
-// Example: button click
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 const HomePage = async () => {
-  const response = await fetch(`${BASE_URL}/api/events`);
-
-  const { events } = await response.json();
+  const events = await getEvents();
   console.log(events);
   return (
     <section>
