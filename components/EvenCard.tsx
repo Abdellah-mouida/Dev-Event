@@ -1,18 +1,26 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-interface Props {
+
+interface EventCardProps {
   title: string;
   image: string;
   slug: string;
   time: string;
-  Date: string;
+  date: string;
   location: string;
 }
 
-const EvenCard = ({ title, image, slug, time, Date, location }: Props) => {
+const EvenCard = ({
+  title,
+  image,
+  slug,
+  time,
+  date,
+  location,
+}: EventCardProps) => {
   return (
-    <Link href={"/events"} id="event-card">
+    <Link href={`/events/${slug}`} id="event-card">
       <Image
         src={image}
         alt={title}
@@ -33,7 +41,7 @@ const EvenCard = ({ title, image, slug, time, Date, location }: Props) => {
             width={14}
             height={14}
           ></Image>
-          <p className="location">{Date}</p>
+          <p className="location">{date}</p>
         </div>
         <div>
           <Image

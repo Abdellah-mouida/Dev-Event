@@ -1,0 +1,88 @@
+# POST http://localhost:3000/api/events
+# Content-Type: multipart/form-data; boundary=----boundary
+
+# ------boundary
+# Content-Disposition: form-data; name="title"
+
+# Cloud Next 2026
+# ------boundary
+# Content-Disposition: form-data; name="description"
+
+# Google’s premier cloud computing event, showcasing innovations in AI, infrastructure, and enterprise solutions.
+# ------boundary
+# Content-Disposition: form-data; name="overview"
+
+# Cloud Next 2025 highlights the latest in cloud-native development, Kubernetes, AI, and enterprise scalability. Developers, architects, and executives gather to learn about new Google Cloud services, best practices, and success stories.
+# ------boundary
+# Content-Disposition: form-data; name="venue"
+
+# Moscone Center
+# ------boundary
+# Content-Disposition: form-data; name="location"
+
+# San Francisco, CA
+# ------boundary
+# Content-Disposition: form-data; name="date"
+
+# 2025-04-10
+# ------boundary
+# Content-Disposition: form-data; name="time"
+
+# 08:30
+# ------boundary
+# Content-Disposition: form-data; name="mode"
+
+# hybrid
+# ------boundary
+# Content-Disposition: form-data; name="audience"
+
+# Cloud engineers, DevOps, enterprise leaders, AI researchers
+# ------boundary
+# Content-Disposition: form-data; name="agenda"
+
+# 08:30 AM - 09:30 AM | Keynote: AI-Driven Cloud Infrastructure
+# ------boundary
+# Content-Disposition: form-data; name="agenda"
+
+# 09:45 AM - 11:00 AM | Deep Dives: Kubernetes, Data Analytics, Security
+# ------boundary
+# Content-Disposition: form-data; name="agenda"
+
+# 11:15 AM - 12:30 PM | Product Demos & Networking
+# ------boundary
+# Content-Disposition: form-data; name="agenda"
+
+# 12:30 PM - 01:30 PM | Lunch
+# ------boundary
+# Content-Disposition: form-data; name="agenda"
+
+# 01:30 PM - 03:00 PM | Workshops: Scaling with GCP
+# ------boundary
+# Content-Disposition: form-data; name="agenda"
+
+# 03:15 PM - 04:30 PM | Fireside Chat: The Future of Enterprise Cloud
+# ------boundary
+# Content-Disposition: form-data; name="organizer"
+
+# Google Cloud organizes Cloud Next to connect global businesses, developers, and innovators with the latest technologies and best practices in cloud computing.
+# ------boundary
+# Content-Disposition: form-data; name="tags"
+
+# Cloud
+# ------boundary
+# Content-Disposition: form-data; name="tags"
+
+# DevOps
+# ------boundary
+# Content-Disposition: form-data; name="tags"
+
+# Kubernetes
+# ------boundary
+# Content-Disposition: form-data; name="tags"
+
+# AI
+# ------boundary
+# Content-Disposition: form-data; name="image"; filename="image.jpg"
+
+# < ./image.jpg
+# ------boundary--

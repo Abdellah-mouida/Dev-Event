@@ -1,0 +1,6 @@
+GET http://localhost:3000/api/events/cloud-next-2026
+Content-Type: application/json
+
+{
+  "slug": "cloud-next-2026"
+}
