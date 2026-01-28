@@ -1,0 +1,493 @@
+### Event 1: Tech Summit 2026
+POST http://localhost:3000/api/events
+Content-Type: multipart/form-data; boundary=----boundary
+
+------boundary
+Content-Disposition: form-data; name="title"
+
+Tech Summit 2026
+------boundary
+Content-Disposition: form-data; name="description"
+
+Annual gathering of tech leaders, entrepreneurs, and developers exploring the latest innovations in software development, cloud computing, and AI.
+------boundary
+Content-Disposition: form-data; name="overview"
+
+Tech Summit 2026 brings together industry experts to discuss emerging technologies, best practices, and future trends in the tech industry.
+------boundary
+Content-Disposition: form-data; name="venue"
+
+San Jose Convention Center
+------boundary
+Content-Disposition: form-data; name="location"
+
+San Jose, CA
+------boundary
+Content-Disposition: form-data; name="date"
+
+2026-03-15
+------boundary
+Content-Disposition: form-data; name="time"
+
+09:00
+------boundary
+Content-Disposition: form-data; name="mode"
+
+hybrid
+------boundary
+Content-Disposition: form-data; name="audience"
+
+Software engineers, CTOs, startup founders, tech enthusiasts
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+09:00 AM - 10:00 AM | Opening Keynote: The Future of AI
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+10:15 AM - 11:30 AM | Breakout Sessions: Cloud & DevOps
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+11:45 AM - 01:00 PM | Lunch & Networking
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+01:00 PM - 02:30 PM | Workshops: Kubernetes & Microservices
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+02:45 PM - 04:00 PM | Panel Discussion: Tech Trends 2026
+------boundary
+Content-Disposition: form-data; name="organizer"
+
+TechCon International organizes leading technology conferences connecting developers with cutting-edge knowledge and networking opportunities.
+------boundary
+Content-Disposition: form-data; name="tags"
+
+Technology
+------boundary
+Content-Disposition: form-data; name="tags"
+
+AI
+------boundary
+Content-Disposition: form-data; name="tags"
+
+Cloud Computing
+------boundary
+Content-Disposition: form-data; name="image"; filename="event1.png"
+
+< ./public/images/event1.png
+------boundary--
+
+###
+
+### Event 2: ReactJS Conference
+POST http://localhost:3000/api/events
+Content-Type: multipart/form-data; boundary=----boundary
+
+------boundary
+Content-Disposition: form-data; name="title"
+
+ReactJS Conference 2026
+------boundary
+Content-Disposition: form-data; name="description"
+
+Deep dive into React ecosystem, modern web development patterns, and building scalable applications with React.
+------boundary
+Content-Disposition: form-data; name="overview"
+
+Join hundreds of React developers learning about hooks, performance optimization, state management, and modern frontend architecture.
+------boundary
+Content-Disposition: form-data; name="venue"
+
+Austin Convention Center
+------boundary
+Content-Disposition: form-data; name="location"
+
+Austin, TX
+------boundary
+Content-Disposition: form-data; name="date"
+
+2026-04-20
+------boundary
+Content-Disposition: form-data; name="time"
+
+08:30
+------boundary
+Content-Disposition: form-data; name="mode"
+
+offline
+------boundary
+Content-Disposition: form-data; name="audience"
+
+Frontend developers, React enthusiasts, web developers, UX engineers
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+08:30 AM - 09:00 AM | Registration & Coffee
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+09:00 AM - 10:30 AM | Keynote: Future of React
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+10:45 AM - 12:00 PM | Workshop: Advanced Hooks Patterns
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+12:00 PM - 01:00 PM | Lunch
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+01:00 PM - 02:30 PM | Lightning Talks
+------boundary
+Content-Disposition: form-data; name="organizer"
+
+ReactJS Conference organizes premium events for React developers worldwide, fostering community and sharing best practices.
+------boundary
+Content-Disposition: form-data; name="tags"
+
+React
+------boundary
+Content-Disposition: form-data; name="tags"
+
+JavaScript
+------boundary
+Content-Disposition: form-data; name="tags"
+
+Frontend
+------boundary
+Content-Disposition: form-data; name="image"; filename="event2.png"
+
+< ./public/images/event2.png
+------boundary--
+
+###
+
+### Event 3: DevOps Summit
+POST http://localhost:3000/api/events
+Content-Type: multipart/form-data; boundary=----boundary
+
+------boundary
+Content-Disposition: form-data; name="title"
+
+DevOps Summit 2026
+------boundary
+Content-Disposition: form-data; name="description"
+
+Comprehensive DevOps conference covering CI/CD, infrastructure as code, containerization, and modern deployment strategies.
+------boundary
+Content-Disposition: form-data; name="overview"
+
+Connect with DevOps professionals to learn about automation, monitoring, security, and scaling cloud infrastructure.
+------boundary
+Content-Disposition: form-data; name="venue"
+
+New York Hilton Midtown
+------boundary
+Content-Disposition: form-data; name="location"
+
+New York, NY
+------boundary
+Content-Disposition: form-data; name="date"
+
+2026-05-10
+------boundary
+Content-Disposition: form-data; name="time"
+
+07:30
+------boundary
+Content-Disposition: form-data; name="mode"
+
+hybrid
+------boundary
+Content-Disposition: form-data; name="audience"
+
+DevOps engineers, system administrators, cloud architects, SREs
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+07:30 AM - 08:30 AM | Registration & Breakfast
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+08:30 AM - 09:30 AM | Opening Keynote
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+09:45 AM - 11:00 AM | Workshop: Kubernetes Advanced Topics
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+11:15 AM - 12:30 PM | Panel: DevOps Tools & Trends
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+12:30 PM - 01:30 PM | Lunch
+------boundary
+Content-Disposition: form-data; name="organizer"
+
+DevOps Summit brings together infrastructure and operations professionals to share knowledge and innovations.
+------boundary
+Content-Disposition: form-data; name="tags"
+
+DevOps
+------boundary
+Content-Disposition: form-data; name="tags"
+
+Kubernetes
+------boundary
+Content-Disposition: form-data; name="tags"
+
+CI/CD
+------boundary
+Content-Disposition: form-data; name="image"; filename="event3.png"
+
+< ./public/images/event3.png
+------boundary--
+
+###
+
+### Event 4: Web3 & Blockchain Hackathon
+POST http://localhost:3000/api/events
+Content-Type: multipart/form-data; boundary=----boundary
+
+------boundary
+Content-Disposition: form-data; name="title"
+
+Web3 & Blockchain Hackathon
+------boundary
+Content-Disposition: form-data; name="description"
+
+48-hour hackathon focused on building decentralized applications, smart contracts, and exploring blockchain technology.
+------boundary
+Content-Disposition: form-data; name="overview"
+
+Build innovative dApps and compete for prizes while learning from blockchain experts and connecting with fellow developers.
+------boundary
+Content-Disposition: form-data; name="venue"
+
+San Francisco Tech Hub
+------boundary
+Content-Disposition: form-data; name="location"
+
+San Francisco, CA
+------boundary
+Content-Disposition: form-data; name="date"
+
+2026-06-01
+------boundary
+Content-Disposition: form-data; name="time"
+
+10:00
+------boundary
+Content-Disposition: form-data; name="mode"
+
+offline
+------boundary
+Content-Disposition: form-data; name="audience"
+
+Blockchain developers, smart contract engineers, Web3 enthusiasts, full-stack developers
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+10:00 AM - 11:00 AM | Opening Ceremony & Team Formation
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+11:00 AM - 11:30 AM | Keynote: Web3 Landscape
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+11:30 AM - 10:00 PM | Day 1 Hacking
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+10:00 PM - 06:00 AM | Day 2 Hacking
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+06:00 AM - 10:00 AM | Day 3 Hacking
+------boundary
+Content-Disposition: form-data; name="organizer"
+
+Web3 Hackathon connects developers, investors, and innovators building the future of decentralized internet.
+------boundary
+Content-Disposition: form-data; name="tags"
+
+Blockchain
+------boundary
+Content-Disposition: form-data; name="tags"
+
+Web3
+------boundary
+Content-Disposition: form-data; name="tags"
+
+Hackathon
+------boundary
+Content-Disposition: form-data; name="image"; filename="event4.png"
+
+< ./public/images/event4.png
+------boundary--
+
+###
+
+### Event 5: Python Data Science Bootcamp
+POST http://localhost:3000/api/events
+Content-Type: multipart/form-data; boundary=----boundary
+
+------boundary
+Content-Disposition: form-data; name="title"
+
+Python Data Science Bootcamp
+------boundary
+Content-Disposition: form-data; name="description"
+
+Intensive 3-day bootcamp covering data analysis, machine learning, and data visualization using Python.
+------boundary
+Content-Disposition: form-data; name="overview"
+
+Learn practical data science skills from industry experts, working with real-world datasets and modern ML frameworks.
+------boundary
+Content-Disposition: form-data; name="venue"
+
+Boston University Conference Center
+------boundary
+Content-Disposition: form-data; name="location"
+
+Boston, MA
+------boundary
+Content-Disposition: form-data; name="date"
+
+2026-07-15
+------boundary
+Content-Disposition: form-data; name="time"
+
+09:00
+------boundary
+Content-Disposition: form-data; name="mode"
+
+offline
+------boundary
+Content-Disposition: form-data; name="audience"
+
+Data scientists, analysts, ML engineers, aspiring data professionals
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+Day 1 | Python Fundamentals & Data Manipulation
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+Day 2 | Machine Learning & Model Building
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+Day 3 | Advanced ML & Deployment
+------boundary
+Content-Disposition: form-data; name="organizer"
+
+Data Science Bootcamp provides intensive training for professionals transitioning into or advancing in data science.
+------boundary
+Content-Disposition: form-data; name="tags"
+
+Python
+------boundary
+Content-Disposition: form-data; name="tags"
+
+Data Science
+------boundary
+Content-Disposition: form-data; name="tags"
+
+Machine Learning
+------boundary
+Content-Disposition: form-data; name="image"; filename="event5.png"
+
+< ./public/images/event5.png
+------boundary--
+
+###
+
+### Event 6: Mobile Development Summit
+POST http://localhost:3000/api/events
+Content-Type: multipart/form-data; boundary=----boundary
+
+------boundary
+Content-Disposition: form-data; name="title"
+
+Mobile Development Summit 2026
+------boundary
+Content-Disposition: form-data; name="description"
+
+Conference covering iOS, Android, and cross-platform mobile development with Flutter and React Native.
+------boundary
+Content-Disposition: form-data; name="overview"
+
+Explore the latest in mobile app development, performance optimization, and deployment strategies.
+------boundary
+Content-Disposition: form-data; name="venue"
+
+Miami Beach Convention Center
+------boundary
+Content-Disposition: form-data; name="location"
+
+Miami, FL
+------boundary
+Content-Disposition: form-data; name="date"
+
+2026-08-22
+------boundary
+Content-Disposition: form-data; name="time"
+
+08:00
+------boundary
+Content-Disposition: form-data; name="mode"
+
+hybrid
+------boundary
+Content-Disposition: form-data; name="audience"
+
+Mobile developers, iOS engineers, Android developers, cross-platform specialists
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+08:00 AM - 09:00 AM | Breakfast & Networking
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+09:00 AM - 10:00 AM | Keynote: Future of Mobile
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+10:15 AM - 11:30 AM | iOS Development Track
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+11:45 AM - 01:00 PM | Lunch
+------boundary
+Content-Disposition: form-data; name="agenda"
+
+01:00 PM - 02:30 PM | Flutter & React Native Workshop
+------boundary
+Content-Disposition: form-data; name="organizer"
+
+Mobile Summit brings together mobile app developers to share innovations and best practices.
+------boundary
+Content-Disposition: form-data; name="tags"
+
+Mobile
+------boundary
+Content-Disposition: form-data; name="tags"
+
+iOS
+------boundary
+Content-Disposition: form-data; name="tags"
+
+Android
+------boundary
+Content-Disposition: form-data; name="image"; filename="event6.png"
+
+< ./public/images/event6.png
+------boundary--

@@ -1,6 +1,7 @@
 import ExploreButton from "@/components/ExploreButton";
 import EventCard from "@/components/EvenCard";
 import { getEvents } from "@/lib/getEvents";
+import { IEvent } from "@/database";
 
 const HomePage = async () => {
   const events = await getEvents();
